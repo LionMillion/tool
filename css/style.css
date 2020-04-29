@@ -1,0 +1,135 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding: 20px 10px;
+  line-height: 1.65em;
+  background: #CF2C34;
+  color: #fff;
+  font-weight: 900;
+  -webkit-user-select: none;
+	-moz-user-select: none;     
+	-ms-user-select: none;      
+	-o-user-select: none;
+	user-select: none;
+
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+
+h4 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+.buttonwraper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: stretch;
+  margin-top: 30px;
+}
+
+.container{
+  max-width: 960px;
+}
+#wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 600px;
+    height: 70px;
+    font-size: 35px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    color: black;
+    transition: 1s linear;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+a:hover{
+  text-decoration: none;
+    color: white;
+}
+
+
+img{
+ position: sticky;
+    top: 0;
+    width: 13em;
+}
+
+
+.generate{
+font-family: 'Rubik', sans-serif;
+font-size: 3em;
+width: 51%;
+
+}
+
+#btnCopy{
+  font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 13%;
+    line-height: 87px;
+}
+
+@media screen and (max-width: 992px) {
+  .btn{
+font-size: 1em;
+
+}
+}
+
+
+@media screen and (max-width: 992px) {
+  #wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 350px;
+    height: 50px;
+    font-size: 19px;
+}
+}
+
+@media screen and (max-width: 992px) {
+  img{
+    width: 3em;
+}
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+  font-family: 'Bangers', cursive;
+  color: #fff;
+  font-size: 2em;
+
+}
+}
+
+@media screen and (max-width: 992px) {
+.btn{font-size: 24px;}
+}
+
+@media screen and (max-width: 992px) {
+#btnCopy{
+    font-size: 0.8em;
+    width: 16%;
+    line-height: 17px;
+}
+}
