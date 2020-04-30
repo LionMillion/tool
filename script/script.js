@@ -3,7 +3,7 @@ var words = new BuildArray(NumberOfWords)
 
 // Use the following variables to 
 // define your random words:
-words[1] = "http://gestyy.com/e0qKWm" 
+words[1] = "http://gestyy.com/e0w5gX" 
 words[2] = "http://gestyy.com/e0qKWT" 
 words[3] = "http://gestyy.com/e0qKWG" 
 words[4] = "http://gestyy.com/e0qKWN" 
@@ -26,7 +26,7 @@ words[20] = "http://gestyy.com/e0qKKl"
 words[21] = "http://gestyy.com/e0qKKb" 
 words[22] = "http://gestyy.com/e0qKKE" 
 words[23] = "http://gestyy.com/e0qKKI" 
-words[24] = "http://gestyy.com/e0qKKI" 
+words[24] = "http://gestyy.com/e0w5gH" 
 words[25] = "http://gestyy.com/e0qKKD" 
 words[26] = "http://gestyy.com/e0qLuK" 
 words[27] = "http://gestyy.com/e0qKKV" 
@@ -41,9 +41,16 @@ words[35] = "http://gestyy.com/e0qLuK"
 words[36] = "http://gestyy.com/e0qKLY" 
 words[37] = "http://gestyy.com/e0qKLY" 
 words[38] = "http://gestyy.com/e0qKLw" 
-words[39] = "http://gestyy.com/e0qLuK" 
+words[39] = "http://gestyy.com/e0w5gj" 
 words[40] = "http://gestyy.com/e0qKLw" 
-
+word[41] = "http://gestyy.com/e0qKWm"
+word[42] = "http://gestyy.com/e0w5gY"
+word[43] = "http://gestyy.com/e0w5gA"
+word[44] = "http://gestyy.com/e0w5gX"
+word[45] = "http://gestyy.com/e0w5gs"
+word[46] = "http://gestyy.com/e0w5gc"
+word[47] = "http://gestyy.com/e0qLuK"
+word[48] = "http://gestyy.com/e0qKKI"
 
 function BuildArray(size){
 this.length = size
