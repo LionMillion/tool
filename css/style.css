@@ -15,6 +15,62 @@ body {
 
 }
 
+.howitsworkpage{
+    font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding: 20px 10px;
+  line-height: 1.65em;
+  background: #564646;
+  color: #fff;
+  font-weight: 900;
+  -webkit-user-select: none;
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  -o-user-select: none;
+  user-select: none;
+
+}
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.minecraftpage{
+    font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  padding: 20px 10px;
+  line-height: 1.65em;
+  background: #B65400;
+  color: #fff;
+  font-weight: 900;
+  -webkit-user-select: none;
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  -o-user-select: none;
+  user-select: none;
+}
+
+#sitename{
+  margin-left: -150px;
+}
+
+
+
+
 h1 {
   font-family: 'Bangers', cursive;
   color: #fff;
@@ -79,13 +135,51 @@ font-size: 3em;
 width: 51%;
 
 }
-
+nav { 
+  margin-top: -550px; 
+  margin-left: 544px; 
+  float: left; 
+  color: #FFF; 
+  font-size:18px; 
+  letter-spacing: 1px; 
+} 
+.customnav { 
+  margin-top: -630px; 
+  margin-left: 544px; 
+  float: left; 
+  color: #FFF; 
+  font-size:16px; 
+  letter-spacing: 1px; 
+} 
+nav ul { 
+  list-style: none; 
+  margin: 0; 
+  margin: 0; 
+} 
+nav li { 
+  display: inline; 
+  float: left; 
+} 
+nav li a { 
+  text-decoration: none;
+   margin: 0px 10px 0px 10px; 
+   color: #FFF; 
+ } 
+nav li a:hover { 
+  color: #88a0ad; 
+  transition: 0.3s; 
+}
 #btnCopy{
   font-family: 'Rubik', sans-serif;
     font-size: 1em;
     font-weight: bold;
     width: 13%;
     line-height: 87px;
+}
+
+.video{
+    position: relative;
+    left: 173px;
 }
 
 @media screen and (max-width: 992px) {
@@ -108,7 +202,7 @@ font-size: 1em;
 
 @media screen and (max-width: 992px) {
   img{
-    width: 93px;
+    width: 0px;
 }
 }
 
@@ -140,4 +234,25 @@ a {
     color: white;
     font-size: 0.8em;
 }
+}
+
+
+@media screen and (max-width: 992px) {
+nav {
+    margin-top: -378px;
+    margin-left: -42px;
+    float: left;
+    color: #FFF;
+    font-size: 13px;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+.customnav{
+    margin-top: -606px;
+    margin-left: 131px;
+    float: left;
+    color: #FFF;
+    font-size: 29px;
+  }
 }
