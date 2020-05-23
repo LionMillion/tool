@@ -1,4 +1,4 @@
-var NumberOfWords = 50
+var NumberOfWords = 73
 var words = new BuildArray(NumberOfWords)
 
 // Use the following variables to 
@@ -53,6 +53,31 @@ words[47] = "https://todaynewspk.win/n4WM21"
 words[48] = "https://todaynewspk.win/ow9Qsf"
 words[49] = "https://todaynewspk.win/dlqoTNV"
 words[50] = "https://todaynewspk.win/lTlM"
+words[51] = "https://todaynewspk.win/58If"
+words[52] = "https://todaynewspk.win/ELQRX"
+words[53] = "https://todaynewspk.win/GqoiDKk"
+words[54] = "https://todaynewspk.win/TBTK"
+words[55] = "https://todaynewspk.win/bq6q"
+words[56] = "https://todaynewspk.win/Wbsc2u"
+words[57] = "https://todaynewspk.win/qT8KUx"
+words[58] = "https://todaynewspk.win/fuQ5VmI"
+words[59] = "https://todaynewspk.win/H3cKBo"
+words[60] = "https://todaynewspk.win/7OEKzhhC"
+words[61] = "https://todaynewspk.win/PPr21"
+words[62] = "https://todaynewspk.win/8zNp7Z9y"
+words[63] = "https://todaynewspk.win/59EX"
+words[64] = "https://todaynewspk.win/02Wd7"
+words[65] = "https://todaynewspk.win/kkGMQ69J"
+words[66] = "https://todaynewspk.win/br5Jzu"
+words[67] = "https://todaynewspk.win/3QWKbz"
+words[68] = "https://todaynewspk.win/gWU3dNf"
+words[69] = "https://todaynewspk.win/caAiAlSd"
+words[70] = "https://todaynewspk.win/TYO13rw"
+words[71] = "https://todaynewspk.win/2dehB"
+words[72] = "https://todaynewspk.win/xMfooC"
+words[73] = "https://todaynewspk.win/eUULJWlk"
+
+
 
 
 function BuildArray(size){
