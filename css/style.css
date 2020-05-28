@@ -271,3 +271,17 @@ nav {
     font-size: 29px;
   }
 }
+
+
+
+
+
+@media screen and (max-width: 992px) {
+.wtf{  
+width: 0;
+padding: 0;
+margin-top: 0px;
+margin-left: 0;
+font-size: 0;
+}
+}
