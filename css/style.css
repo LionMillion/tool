@@ -15,6 +15,19 @@ body {
 
 }
 
+.wtf{
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    color: black;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: -161px;
+}
+
+
+
 .howitsworkpage{
     font-family: Verdana, Geneva, sans-serif;
   font-size: 1.2em;
@@ -144,7 +157,7 @@ nav {
   letter-spacing: 1px; 
 } 
 .customnav { 
-  margin-top: -730px; 
+  margin-top: -630px; 
   margin-left: 544px; 
   float: left; 
   color: #FFF; 
@@ -246,6 +259,8 @@ nav {
     font-size: 13px;
     }
   }
+
+
 
 @media screen and (max-width: 992px) {
 .customnav{
