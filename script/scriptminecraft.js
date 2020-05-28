@@ -77,3 +77,13 @@ var rnd = Math.ceil(Math.random() * NumberOfWords)
 frm.WordBox.value = words[rnd]
 }
 
+function usersOnline() {
+  var rndUser;
+  rndUser = Math.floor(Math.random() * 50) + 100;
+  document.getElementsByClassName("wtf")[0].innerHTML ="Users online: " + rndUser;
+  setInterval(function(){
+    rndUser = Math.floor(Math.random() * 50) + 100;
+    document.getElementsByClassName("wtf")[0].innerHTML ="Users online: " + rndUser;
+  }, 5020);
+}
+
