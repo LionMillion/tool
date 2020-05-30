@@ -1,4 +1,4 @@
-var NumberOfWords = 73
+var NumberOfWords = 50
 var words = new BuildArray(NumberOfWords)
 
 // Use the following variables to 
@@ -76,6 +76,21 @@ words[70] = "https://todaynewspk.win/TYO13rw"
 words[71] = "https://todaynewspk.win/2dehB"
 words[72] = "https://todaynewspk.win/xMfooC"
 words[73] = "https://todaynewspk.win/eUULJWlk"
+words[75] = "https://todaynewspk.win/uZC8pY2"
+words[76] = "https://todaynewspk.win/l04vi"
+words[77] = "https://todaynewspk.win/Yxsl"
+words[78] = "https://todaynewspk.win/cEhGJ"
+words[79] = "https://todaynewspk.win/7LFJ"
+words[80] = "https://todaynewspk.win/Hh2Ou8AN"
+words[81] = "https://todaynewspk.win/BDLDmd"
+words[82] = "https://todaynewspk.win/3aCeU"
+words[83] = "https://todaynewspk.win/SizN2V"
+words[84] = "https://todaynewspk.win/z7LCuOFq"
+words[85] = "https://todaynewspk.win/LnUfyGZ"
+words[86] = "https://todaynewspk.win/RYKIZXj"
+words[87] = "https://todaynewspk.win/KXrgtT"
+words[88] = "https://todaynewspk.win/gfos"
+words[89] = "https://todaynewspk.win/Mm32puZj"
 
 
 
@@ -95,6 +110,7 @@ var rnd = Math.ceil(Math.random() * NumberOfWords)
 frm.WordBox.value = words[rnd]
 }
 
+
 function usersOnline() {
   var rndUser;
   rndUser = Math.floor(Math.random() * 50) + 100;
@@ -104,4 +120,3 @@ function usersOnline() {
     document.getElementsByClassName("wtf")[0].innerHTML ="Users online: " + rndUser;
   }, 5020);
 }
-
