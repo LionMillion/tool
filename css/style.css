@@ -195,6 +195,11 @@ nav li a:hover {
     left: 173px;
 }
 
+.Account{
+  text-align: center;
+  margin-top: 150px;
+}
+
 @media screen and (max-width: 992px) {
   .btn{
 font-size: 1em;
