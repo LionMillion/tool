@@ -26,6 +26,11 @@ background-repeat: no-repeat;
   margin-left: -161px;
 }
 
+.banner{
+      size: 43px;
+    font-size: 45px;
+    margin-right: 171px
+}
 
 
 .howitsworkpage{
@@ -197,7 +202,6 @@ nav li a:hover {
 
 .Account{
   text-align: center;
-  margin-top: 150px;
 }
 
 @media screen and (max-width: 992px) {
